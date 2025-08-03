@@ -1,0 +1,16 @@
+# AWS Region
+aws_region = "us-east-1"
+
+# Project prefix
+project_name = "asterra-assignment"
+
+# RDS settings
+db_name     = "gisdb"
+db_username = "postgres"
+db_password = "ChangeMe123!"  # שים כאן סיסמה אמיתית לפני apply
+db_allocated_storage = 20
+
+# VPC network settings
+vpc_cidr            = "10.0.0.0/16"
+public_subnet_cidr  = "10.0.1.0/24"
+private_subnet_cidr = "10.0.2.0/24"
